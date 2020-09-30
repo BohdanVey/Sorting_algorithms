@@ -35,7 +35,7 @@ def save_graphic(save_name, data, name, yname, xname):
     plt.savefig(save_name)
     plt.clf()
 
-START,FINISH = 7,12 # Початковий і кінцевий розмір масиву 2**
+START,FINISH = 7,15 # Початковий і кінцевий розмір масиву 2**
 now = 2 ** START
 answers_comparison,answers_time = {},{}
 while now <= 2 ** FINISH:
